@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Kaushan Script', 'cursive';
+    background: #f5f7fa;
+    padding: 60px;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    background: #fff;
+    max-width: 1200px;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+
+.nombre-mes {
+    text-align: center;
+    color: #51565d;
+    padding: 30px;
+}
+
+.dias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    place-items: center;
+    height: 110px;
+    color: #51565d;
+    text-align: center;
+}
+
+.calendario {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    font-size: 2.3em;
+    text-align: center;
+    gap: 10px;
+}
+
+.calendario-dia {
+    border-bottom: 1px solid #a6a8b31f;
+    border-top: 1px solid #a6a8b31f;
+    padding: 20px 20px;
+    color: #51565d;
+}
+
+.contenedor-1 {
+    background: rgba(189, 238, 11, 0.7);
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.contenedor-2 {
+    background: #470ee4cc;
+}
+
+.contenedor-3 {
+    background: rgba(216, 106, 16, 0.7);
+}
+
+.contenedor-4 {
+    background: rgb(181, 187, 181);
+}
+
+.inicio {
+    font-size: 35px;
+    text-align: center;
+}
