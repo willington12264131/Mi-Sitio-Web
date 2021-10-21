@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-content {
+    width: 90%;
+    border: 2px solid rgb(64, 64, 64, .8);
+    margin: 20px;
+}
+
+.container-flex-1 {
+    display: flex;
+    flex-direction: column;
+    background: rgb(197, 240, 7);
+}
+
+.container-flex-2 {
+    display: flex;
+    flex-direction: row;
+    background: rgb(12, 12, 12);
+}
+
+.container-flex-3 {
+    display: flex;
+    flex-direction: wrap;
+    background: rgb(41, 10, 219);
+}
+
+.container-flex-4 {
+    display: flex;
+    flex-direction: wrap;
+    background: rgb(235, 11, 41);
+}
+
+.container-flex-5 {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(3, 124, 49);
+}
+
+.container-flex-6 {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-7 {
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-8 {
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-9 {
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-10 {
+    display: flex;
+    justify-content: center;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-11 {
+    height: 600px;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-12 {
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    background: rgb(171, 241, 8);
+}
+
+.container-flex-13 {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    background: rgb(171, 241, 8);
+    justify-content: center;
+}
+
+.container-flex-II {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: column;
+    background: rgb(171, 241, 8);
+    justify-content: center;
+}
+
+.item-flex {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(218, 32, 48);
+    color: white;
+    font-size: 1.4em;
+    margin: 20px;
+}
+
+.inicio {
+    text-align: center;
+    font-size: 35px;
+}
