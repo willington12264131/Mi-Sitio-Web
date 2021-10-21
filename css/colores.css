@@ -1,0 +1,26 @@
+p {
+    font-size: 3.3em;
+    font-family: 'Roboto';
+}
+
+.color-azul {
+    color: blue;
+}
+
+.color-verde {
+    color: rgb(0, 187, 45);
+}
+
+.color-gris {
+    color: #424141;
+}
+
+.color-avianca {
+    color: rgb(222, 1, 8);
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    color: rgb(158, 158, 18);
+}
