@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="fuentes.html">Fuentes</a></li>
+        <li><a href="listas.html">Listas</a></li>
+        <li><a href="colores.html">Colores</a></li>
+        <li><a href="alineacion.html">Alineación</a></li>
+        <li><a href="spacing.html">Spacing</a></li>
+        <li><a href="indent-blockquote.html">indent y blockquote</a></li>
+        <li><a href="margin-border-padding.html">Margin Border Padding</a></li>
+        <li><a href="imagenes.html">Imagenes</a></li>
+        <li><a href="tablas.html">Tablas</a></li>
+        <li><a href="formulario.html">Formulario</a></li>
+        <li><a href="contenedores.html">Contenedores</a></li>
+    </ul>
+    <link rel="stylesheet" href="css/formulario.css">
+    <form>
+        <fieldset>
+            <div class="box-formulario">
+                <h1>Aplicasión movil de servicios</h1>
+                <!--label> Ingrese su(s) nombre(s)</label>--><br>
+                <input class="controls" type="text" name="Nombres" placeholder="Ingrese su(s) nombre(s)"><br>
+                <!--label> Ingrese su(s) apellido(s)</label><br>-->
+                <input class="controls" type="text" name="Apellidos" placeholder="Ingrese su(s) apellidos(s)"><br>
+                <label>Observaciones</label><br>
+                <textarea class="controls-check" name="observaciones" cols="50" rows="10" max_length=" 200" placeholder="Observaciones (max. 200 carácteres)"></textarea><br>
+                <label>Ver dias Disponibles</label><br><br>
+                <label><input  class="controls-check"  type="checkbox" value="Lunes" >Lunes</label><br>
+                <label><input  class="controls-check"  type="checkbox" value="Martes" > Martes</label><br>
+                <label><input  class="controls-check"  type="checkbox" value="Miercoles" > Miercoles</label><br>
+                <label><input  class="controls-check"  type="checkbox" value="Jueves" > Jueves</label><br>
+                <label><input  class="controls-check"  type="checkbox" value="Viernes" > Viernes</label><br><br>
+                <label>Aplicación movil de servicios</label><br><br>
+                <label><input  class="controls-check"  type="radio" name="Aplicación movil" >Aplicación movil en calamo</label><br>
+                <label><input  class="controls-check"  type="radio" name="Aplicación movil" >Aplicación movil en Aguablanca</label><br>
+                <label><input  class="controls-check"  type="radio" name="Aplicación movil" >Aplicación movil en Solarte</label><br>
+                <label><input  class="controls-check"  type="radio" name="Aplicación movil" >Aplicación movil en los lagos</label><br><br>
+                <label>Seleccione un servicio</label><br>
+                <select class="controls" name="servicios"><br>
+            <option value="servicio de energia">Servicio de Energia</option>
+            <option value="servicio de gas">Servicio de Gas</option>
+            <option value="servicio de agua">Servicio de Agua</option>
+            <option value="servicio de telefono">Servicio de Teléfono</option>
+            <option value="servicio de transporte">Servicio de Transporte</option>
+            <option value="servicio de Consignacion">Servicio de Consignación</option>
+            </select> <br><br>
+                <input class="controls-button" type="submit" value="Enviar">
+        </fieldset>
+    </form>
+</body>
+
+</html>
