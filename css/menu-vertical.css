@@ -28,6 +28,11 @@ a {
     padding: 35px;
 }
 
+.inicio-1 {
+    font-size: 40px;
+    text-align: center;
+}
+
 a:hover {
     background-color: rgba(165, 159, 159, 0.8);
 }
@@ -48,9 +53,4 @@ i {
 
 menu {
     display: inline-block;
-}
-
-.inicio {
-    font-size: 40px;
-    text-align: center;
 }

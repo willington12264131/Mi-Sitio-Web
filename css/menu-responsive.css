@@ -77,6 +77,11 @@ nav ul li .icon-chevron-small-down {
     margin-left: 10px;
 }
 
+.inicio {
+    text-align: center;
+    font-size: 35px;
+}
+
 @media only screen and (max-width:750px) {
     body {
         padding-top: 68px;

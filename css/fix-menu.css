@@ -29,6 +29,12 @@ a {
     text-align: right;
 }
 
+.inicio {
+    font-size: 35px;
+    text-align: center;
+    background: black;
+}
+
 a:hover {
     background: rgb(158, 3, 1);
     transition: all .3s;

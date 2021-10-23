@@ -151,6 +151,10 @@ fieldset {
     margin: 0 auto;
     display:block;
     width: 100px;
+*/
 
-   
-} */
+.inicio {
+    text-align: center;
+    font-size: 35px;
+    color: #ffffff;
+}
